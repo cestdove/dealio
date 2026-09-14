@@ -6,33 +6,21 @@ Dealio provides a relational database for managing customers, products, orders, 
 
 ## Tech Stack
 
-- PostgreSQL
-- SQL
-- Docker
+| Technology | Purpose |
+|---|---|
+| PostgreSQL | Relational database |
+| SQL | Data modeling and analysis |
+| Docker | Containerized environment |
 
 ## Database
 
-The database is structured around four main entities:
+The database is structured around four main entities: **Customers**, **Products**, **Orders**, and **Order Items**.
 
-- **Customers**
-- **Products**
-- **Orders**
-- **Order Items**
-
-The project includes SQL scripts for creating the database schema, populating the tables with sample data, and querying the resulting dataset.
+SQL scripts are provided for creating the schema and populating the database with sample data.
 
 ## SQL Queries
 
-The `queries/` folder contains queries covering:
-
-- Filtering
-- Aggregations
-- `GROUP BY`
-- `HAVING`
-- `JOIN`
-- Subqueries
-- CTEs
-- Window Functions
+The `queries/` folder contains analytical SQL queries covering filtering, aggregations, `GROUP BY`, `HAVING`, `JOIN` operations, subqueries, CTEs, and window functions.
 
 ## Project Structure
 
@@ -51,10 +39,10 @@ dealio/
 └── README.md
 ```
 
-## Purpose
-
-Dealio is a hands-on project for practicing **relational database design, PostgreSQL, and analytical SQL** in a containerized environment.
-
 ## Evolution
 
-Dealio is designed to evolve from a SQL and PostgreSQL project into a broader **data platform**, gradually incorporating Python, data analysis, machine learning, and API development.
+Dealio is designed to evolve from a SQL and PostgreSQL project into a broader data platform, gradually incorporating **Python, data analysis, machine learning, and API development**.
+
+## License
+
+This project is licensed under the **MIT License**. See the `LICENSE` file for details.
